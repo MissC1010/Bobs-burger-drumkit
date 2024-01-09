@@ -1,0 +1,86 @@
+body {
+  text-align: center;
+  background-color: lightblue;
+}
+
+h1 {
+  font-size: 5rem;
+  color: white;
+  font-family: cursive;
+  text-shadow: 3px 0 rgb(199, 37, 19);
+}
+h2 {
+  font-size: 2rem;
+  color: rgb(214, 79, 41);
+  font-family: cursive;
+  text-shadow: 3px 0 rgb(191, 169, 46);
+}
+
+footer {
+  font-size: 20px;
+}
+
+.w,
+.a,
+.s,
+.d,
+.j,
+.k,
+.l {
+  background-repeat: no-repeat;
+  background-size: cover; /* This ensures the entire image fits within the container */
+}
+
+.w {
+  background-image: url("/images/bob.jfif");
+}
+
+.a {
+  background-image: url("/images/linda.jpg");
+}
+
+.s {
+  background-image: url("/images/tina.jfif");
+}
+
+.d {
+  background-image: url("/images/louise.jfif");
+}
+
+.j {
+  background-image: url("/images/gene.jfif");
+}
+
+.k {
+  background-image: url("/images/gayle.jpg");
+}
+
+.l {
+  background-image: url("/images/land.jpg");
+}
+
+.set {
+  margin: 5% auto;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 white;
+  opacity: 0.5;
+}
+
+.drum {
+  outline: none;
+  border: 10 px solid black;
+
+  font-size: 3rem;
+  line-height: 2;
+  font-weight: 900;
+  color: rgb(222, 222, 77);
+  text-shadow: 3px 0 rgb(31, 38, 32);
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: left;
+  margin: 10px;
+  background-color: rgb(236, 231, 231);
+}
